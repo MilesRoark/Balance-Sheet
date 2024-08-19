@@ -1,0 +1,65 @@
+@media (max-width: 68.75em) {
+  .content {
+    margin-left: -12rem;
+  }
+  hr {
+    width: 30rem;
+  }
+  .cash__amounts {
+    margin-left: -13.5rem;
+  }
+  .checking__amounts {
+    margin-left: -15rem;
+  }
+  .savings__amounts {
+    margin-left: -14.5rem;
+    gap: 4.5rem;
+  }
+  .totals__amounts,
+  .net__total {
+    margin-left: -12.5rem;
+    gap: 4.5rem;
+  }
+  .loan__amounts,
+  .credit__amounts {
+    margin-left: -14rem;
+    gap: 5rem;
+  }
+  .expenses__amounts {
+    margin-left: -15rem;
+    gap: 4.5rem;
+  }
+}
+@media (max-width: 61.25em) {
+  .content {
+    margin-left: -14rem;
+    width: auto;
+  }
+  hr {
+    width: 30rem;
+  }
+  .cash__amounts {
+    margin-left: -13.5rem;
+  }
+  .checking__amounts {
+    margin-left: -15rem;
+  }
+  .savings__amounts {
+    margin-left: -14.5rem;
+    gap: 4.5rem;
+  }
+  .totals__amounts,
+  .net__total {
+    margin-left: -12.5rem;
+    gap: 4.5rem;
+  }
+  .loan__amounts,
+  .credit__amounts {
+    margin-left: -14rem;
+    gap: 5rem;
+  }
+  .expenses__amounts {
+    margin-left: -15rem;
+    gap: 4.5rem;
+  }
+}

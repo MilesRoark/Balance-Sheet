@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400..700&family=Matemasie&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow Condensed", sans-serif;
+  background-color: blanchedalmond;
+}
+
+.content {
+  width: 55vw;
+  height: 175vh;
+  border: 2px solid gray;
+  position: absolute;
+  left: 15rem;
+  top: 1rem;
+  background-color: aliceblue;
+}
+
+.first-divider {
+  height: 1rem;
+  background-color: black;
+}
+
+.years {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  gap: 3rem;
+  font-size: 1.5rem;
+  font-weight: 650;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.y__list {
+  margin-right: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.assets__type__cash,
+.assets__type__checking,
+.assets__type__savings,
+.assets__type__totals,
+.liabilities__type__loans,
+.liabilities__type__credit,
+.liabilities__type__expenses,
+.liabilities__type__totals,
+.net {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  gap: 25rem;
+  border: none;
+}
+.assets__type__cash,
+.assets__type__checking,
+.assets__type__savings,
+.liabilities__type__loans,
+.liabilities__type__credit,
+.liabilities__type__expenses {
+  background-color: rgb(165, 178, 190);
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.cash__amounts,
+.checking__amounts,
+.savings__amounts,
+.totals__amounts,
+.loan__amounts,
+.expenses__amounts,
+.credit__amounts,
+.net__total {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.assets__type__totals:hover,
+.liabilities__type__totals:hover,
+.net:hover {
+  background-color: rgb(152, 91, 208);
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+p,
+h3 {
+  margin-left: 1rem;
+}
+
+h3:not(:first-of-type) {
+  color: brown;
+}
+
+h3:first-of-type {
+  text-align: center;
+}
+
+hr {
+  height: 0.09rem;
+  width: 43rem;
+  background-color: black;
+}
+
+.cash__amounts {
+  margin-left: -1rem;
+  gap: 5rem;
+}
+
+.checking__amounts,
+.savings__amounts {
+  gap: 5rem;
+  margin-left: -2.5rem;
+}
+
+.expenses__amounts {
+  gap: 4rem;
+  margin-left: -2.5rem;
+}
+
+.loan__amounts {
+  gap: 4rem;
+  margin-left: -1rem;
+}
+
+.credit__amounts {
+  gap: 4.5rem;
+  margin-left: -1rem;
+}
+
+@media (max-width: 61.25em) {
+  .content {
+    margin-left: -12rem;
+  }
+  hr {
+    width: 30rem;
+  }
+  .cash__amounts {
+    margin-left: -13.5rem;
+  }
+  .checking__amounts {
+    margin-left: -15rem;
+  }
+  .savings__amounts {
+    margin-left: -14.5rem;
+    gap: 4.5rem;
+  }
+  .totals__amounts,
+  .net__total {
+    margin-left: -12.5rem;
+    gap: 4.5rem;
+  }
+  .loan__amounts,
+  .credit__amounts {
+    margin-left: -14rem;
+    gap: 5rem;
+  }
+  .expenses__amounts {
+    margin-left: -15rem;
+    gap: 4.5rem;
+  }
+}
